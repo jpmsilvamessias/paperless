@@ -1,7 +1,8 @@
 ﻿using ApplicativoTalhonario.Bussines.Dtos;
 using ApplicativoTalhonario.Bussines.Interfaces.Repository;
 using ApplicativoTalhonario.Bussines.Interfaces.Service;
-using MySqlX.XDevAPI;
+using ApplicativoTalhonario.models;
+
 
 namespace ApplicativoTalhonario.Services;
 
@@ -15,13 +16,10 @@ public class ClientService: IClientService
         this.repository = repository;
     }
 
-
     public void saveCliente(ClientDto client)
     {
-        throw new NotImplementedException();
+        
     }
-
- 
 
     public Client findClientId(int id)
     {

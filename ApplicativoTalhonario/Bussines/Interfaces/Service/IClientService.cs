@@ -1,5 +1,5 @@
 ﻿using ApplicativoTalhonario.Bussines.Dtos;
-using MySqlX.XDevAPI;
+using ApplicativoTalhonario.models;
 
 namespace ApplicativoTalhonario.Bussines.Interfaces.Service;
 

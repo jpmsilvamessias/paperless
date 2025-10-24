@@ -1,11 +1,12 @@
 ﻿using ApplicativoTalhonario.Bussines.Dtos;
-using MySqlX.XDevAPI;
+using ApplicativoTalhonario.models;
+
 
 namespace ApplicativoTalhonario.Bussines.Interfaces.Repository;
 
 public interface IClientRepository
 {
-    public void saveClient(ClientDto client);
+    public void saveClient(Client client);
     
     public Client findById(int id);
     

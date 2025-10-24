@@ -4,7 +4,7 @@ namespace ApplicativoTalhonario.Bussines.Interfaces.Service;
 
 public interface IOfferderService
 {
-        public void saveOffender( OffenderDto offender);
+        public void saveOffender(OffenderDto offender);
         
         
         public void findOffenderId(int offenderId);

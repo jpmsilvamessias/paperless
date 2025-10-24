@@ -6,6 +6,8 @@ namespace ApplicativoTalhonario.Data.Context;
 public class BaseContext : DbContext
 {
     public DbSet<Client> Clients { get; set; }
+    
+    public DbSet<Offender> Offenders { get; set; }
 
     public BaseContext(DbContextOptions<BaseContext> options) : base(options)
     {
@@ -16,6 +18,8 @@ public class BaseContext : DbContext
     {
         modelBuilder.Entity<Client>()
             .HasKey(client => client.id);
+        modelBuilder.Entity<Offender>()
+            .HasKey(offender => offender.id);
         
         base.OnModelCreating(modelBuilder);
     }

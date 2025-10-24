@@ -1,0 +1,8 @@
+C:\Users\figue\RiderProjects\paperless\ApplicativoTalhonario\obj\Debug\net8.0\ApplicativoTalhonario.csproj.AssemblyReference.cache
+C:\Users\figue\RiderProjects\paperless\ApplicativoTalhonario\obj\Debug\net8.0\ApplicativoTalhonario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\figue\RiderProjects\paperless\ApplicativoTalhonario\obj\Debug\net8.0\ApplicativoTalhonario.AssemblyInfoInputs.cache
+C:\Users\figue\RiderProjects\paperless\ApplicativoTalhonario\obj\Debug\net8.0\ApplicativoTalhonario.AssemblyInfo.cs
+C:\Users\figue\RiderProjects\paperless\ApplicativoTalhonario\obj\Debug\net8.0\ApplicativoTalhonario.csproj.CoreCompileInputs.cache
+C:\Users\figue\RiderProjects\paperless\ApplicativoTalhonario\obj\Debug\net8.0\ApplicativoTalhonario.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\figue\RiderProjects\paperless\ApplicativoTalhonario\obj\Debug\net8.0\ApplicativoTalhonario.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\figue\RiderProjects\paperless\ApplicativoTalhonario\obj\Debug\net8.0\ApplicativoTalhonario.sourcelink.json

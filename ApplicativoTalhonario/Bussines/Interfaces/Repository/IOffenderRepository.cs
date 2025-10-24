@@ -5,7 +5,7 @@ namespace ApplicativoTalhonario.Bussines.Interfaces.Repository;
 
 public  interface IOffenderRepository
 {
-    public void saveOffender(ClientDto client);
+    public void saveOffender(Offender offender);
     
     public Offender findById(int id);
     

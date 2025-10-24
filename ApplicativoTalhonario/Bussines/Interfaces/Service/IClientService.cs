@@ -1,12 +1,12 @@
-﻿using MySqlX.XDevAPI;
+﻿using ApplicativoTalhonario.Bussines.Dtos;
+using MySqlX.XDevAPI;
 
 namespace ApplicativoTalhonario.Bussines.Interfaces.Service;
 
 public interface IClientService
 {
-    public void CreateCliente(Client client);
+    public void saveCliente(ClientDto client);
     
-    public void UpdateCliente(Client client);
     
     public Client findClientId(int id);
     

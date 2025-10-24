@@ -1,35 +1,34 @@
 ﻿using ApplicativoTalhonario.Bussines.Dtos;
 using ApplicativoTalhonario.Bussines.Interfaces.Repository;
 using ApplicativoTalhonario.Bussines.Interfaces.Service;
-using MySqlX.XDevAPI;
+using ApplicativoTalhonario.models;
 
 namespace ApplicativoTalhonario.Services;
 
-public class ClientService: IClientService
+public class OffenderService : IOfferderService
 {
-    private readonly IClientRepository repository;
+    private readonly IOffenderRepository repository;
 
 
-    public ClientService(IClientRepository repository)
+    public OffenderService(IOffenderRepository repository)
     {
         this.repository = repository;
     }
 
 
-    public void saveCliente(ClientDto client)
+    public void saveOffender(OffenderDto offender)
     {
         throw new NotImplementedException();
     }
 
- 
-
-    public Client findClientId(int id)
+    public void findOffenderId(int offenderId)
     {
         throw new NotImplementedException();
     }
 
-    public void DeleteCliente(int id)
+    public void DeleteOffender(int offenderId)
     {
         throw new NotImplementedException();
     }
 }
+

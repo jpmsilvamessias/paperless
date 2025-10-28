@@ -9,4 +9,5 @@ public class Client
 
     public long password{get;set;}
     
+    public List<Butcher> Butchers{get;set;}
 }

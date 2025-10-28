@@ -21,7 +21,7 @@ namespace ApplicativoTalhonario.Data.Repositories
             _db.SaveChanges();
         }
 
-        public Client findById(int id)
+        public Client findById(long id)
         {
             Client client =
                 _db.Clients.Find(id);
@@ -34,10 +34,12 @@ namespace ApplicativoTalhonario.Data.Repositories
             return client;
         }
 
-        public void deleteClient(int id)
+        public void deleteClient(long id)
         {
             _db.Clients.Remove(_db.Clients.Find(id));
         }
+        
+        
     }
 }    
 

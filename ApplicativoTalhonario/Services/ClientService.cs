@@ -16,18 +16,39 @@ public class ClientService: IClientService
         this.repository = repository;
     }
 
-    public void saveCliente(ClientDto client)
+    public void saveCliente(ClientDto dto)
     {
+        Client client = repository.findById(dto.id);
+
+        if (dto == null)
+        {
+            throw new Exception("cliente esta nullo");
+        }
+
+        Client newClient = new Client();
+        newClient.id = dto.id;
+        newClient.name = dto.name;
+        newClient.password = dto.senha;
         
+        repository.saveClient(newClient);
+
+
+
+
     }
 
-    public Client findClientId(int id)
+    public Client findClientId(long id)
     {
-        throw new NotImplementedException();
+        Client client = repository.findById(id);
+        if (client == null)
+        {
+            throw new Exception("cliente esta nullo");
+        }
+        return client;
     }
 
-    public void DeleteCliente(int id)
+    public void DeleteCliente(long id)
     {
-        throw new NotImplementedException();
+        repository.deleteClient(id);
     }
 }

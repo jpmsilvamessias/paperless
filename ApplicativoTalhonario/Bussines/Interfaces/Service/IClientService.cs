@@ -5,10 +5,10 @@ namespace ApplicativoTalhonario.Bussines.Interfaces.Service;
 
 public interface IClientService
 {
-    public void saveCliente(ClientDto client);
+    public void saveCliente(ClientDto dto);
     
     
-    public Client findClientId(int id);
+    public Client findClientId(long id);
     
-    public void DeleteCliente(int id);
+    public void DeleteCliente(long id);
 }

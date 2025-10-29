@@ -7,7 +7,7 @@ public  interface IOffenderRepository
 {
     public void saveOffender(Offender offender);
     
-    public Offender findById(int id);
+    public Offender findById(long id);
     
-    public void deleteOffender(int id);
+    public void deleteOffender(long id);
 }

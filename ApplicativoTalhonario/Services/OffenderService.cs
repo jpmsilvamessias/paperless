@@ -18,17 +18,32 @@ public class OffenderService : IOfferderService
 
     public void saveOffender(OffenderDto offender)
     {
-        throw new NotImplementedException();
+        if (offender == null)
+        {
+            throw new NullReferenceException("O Infrator está vazio!");
+        }
+        
+        Offender newOffender = new Offender();
+        newOffender.id = offender.id;
+        newOffender.name = offender.name;
+        newOffender.address = offender.address;
+        repository.saveOffender(newOffender);
     }
 
-    public void findOffenderId(int offenderId)
+    public Offender findOffenderId(long offenderId)
     {
-        throw new NotImplementedException();
+        Offender offender = repository.findById(offenderId);
+        
+        if (offender == null)
+        {
+            throw new Exception ("Offender no encontrado");
+        }
+        return offender;
     }
 
-    public void DeleteOffender(int offenderId)
+    public void DeleteOffender(long offenderId)
     {
-        throw new NotImplementedException();
+        repository.deleteOffender(offenderId);
     }
 }
 

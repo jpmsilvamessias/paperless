@@ -15,7 +15,7 @@ public class OffenderRepository : IOffenderRepository
         _db.SaveChanges();
     }
 
-    public Offender findById(int id)
+    public Offender findById(long id)
     {
         Offender offender = _db.Offenders.Find(id);
 
@@ -26,7 +26,7 @@ public class OffenderRepository : IOffenderRepository
         return offender;
     }
 
-    public void deleteOffender(int id)
+    public void deleteOffender(long id)
     {
         _db.Offenders.Remove(_db.Offenders.Find(id));
     }

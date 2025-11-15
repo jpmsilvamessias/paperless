@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApplicativoTalhonario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b62faf128ef10f25dfbb2ad1b888a9cb78b488e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+973adb1eba0dae34c75360a274a7116373ffd842")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApplicativoTalhonario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApplicativoTalhonario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

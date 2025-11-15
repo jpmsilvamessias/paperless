@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\figue\\RiderProjects\\paperless\\ApplicativoTalhonario\\ApplicativoTalhonario.csproj": {}
+    "C:\\Users\\della\\RiderProjects\\paperless\\ApplicativoTalhonario\\ApplicativoTalhonario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\figue\\RiderProjects\\paperless\\ApplicativoTalhonario\\ApplicativoTalhonario.csproj": {
+    "C:\\Users\\della\\RiderProjects\\paperless\\ApplicativoTalhonario\\ApplicativoTalhonario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\figue\\RiderProjects\\paperless\\ApplicativoTalhonario\\ApplicativoTalhonario.csproj",
+        "projectUniqueName": "C:\\Users\\della\\RiderProjects\\paperless\\ApplicativoTalhonario\\ApplicativoTalhonario.csproj",
         "projectName": "ApplicativoTalhonario",
-        "projectPath": "C:\\Users\\figue\\RiderProjects\\paperless\\ApplicativoTalhonario\\ApplicativoTalhonario.csproj",
-        "packagesPath": "C:\\Users\\figue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\figue\\RiderProjects\\paperless\\ApplicativoTalhonario\\obj\\",
+        "projectPath": "C:\\Users\\della\\RiderProjects\\paperless\\ApplicativoTalhonario\\ApplicativoTalhonario.csproj",
+        "packagesPath": "C:\\Users\\della\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\della\\RiderProjects\\paperless\\ApplicativoTalhonario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\figue\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\della\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\figue\\.dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\della\\.dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

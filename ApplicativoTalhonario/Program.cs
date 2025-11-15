@@ -24,7 +24,7 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         
-        var mysqlString = "server=localhost; port=3306; database=talhonario_api; user=root; password=toribash; Persist Security Info =False; Convert Zero Datetime=True";
+        var mysqlString = "server=bancoteste.cu582owu4wv1.us-east-1.rds.amazonaws.com; port=3306; database=dsin_api; user=admin; password=bR9csru7JRVy087wk8Qu; Persist Security Info =False; Convert Zero Datetime=True";
         builder.Services.AddDbContext<BaseContext>(options =>
             options.UseMySql(mysqlString, ServerVersion.AutoDetect(mysqlString)
             ));

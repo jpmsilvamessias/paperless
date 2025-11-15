@@ -15,21 +15,21 @@ public class ClientControler : ControllerBase
         this.clientService = clientService;
     }
 
-    [HttpGet(Name = "GetClient")]
+    [HttpGet("GetClient")]
     public IActionResult GetClient(long id)
     {
         Client client = clientService.findClientId(id);
         return Ok(client);
     }
 
-    [HttpPost(Name = "CreateClient")]
+    [HttpPost("CreateClient")]
     public IActionResult createClient([FromBody] ClientDto newclient)
     {
             clientService.saveCliente(newclient);
              return Ok();
     }
 
-    [HttpPut(Name = "UpdateClient")]
+    [HttpPut("UpdateClient")]
     public IActionResult UpdateClient(long id, [FromBody] ClientDto client)
     {
         if (clientService.findClientId(id) == null)
@@ -40,7 +40,7 @@ public class ClientControler : ControllerBase
         return Ok();
     }
 
-    [HttpDelete(Name = "DeleteClient")]
+    [HttpDelete("DeleteClient")]
     public IActionResult DeleteClient(long id)
     {
         clientService.DeleteCliente(id);

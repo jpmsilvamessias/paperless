@@ -16,21 +16,21 @@ public class OffenderControler : ControllerBase
         this.offenderService = offenderService;
     }
 
-    [HttpGet(Name = "GetOffender")]
+    [HttpGet("GetOffender")]
     public IActionResult GetOffender(long id)
     {
         Offender offender = offenderService.findOffenderId(id);
         return Ok(offender);
     }
 
-    [HttpPost(Name = "CreateOffender")]
+    [HttpPost("CreateOffender")]
     public IActionResult CreateOffender([FromBody] OffenderDto newoffender)
     {
         offenderService.saveOffender(newoffender);
         return Ok();
     }
 
-    [HttpPut(Name = "UpdateOffender")]
+    [HttpPut("UpdateOffender")]
     public IActionResult UpdateOffender(long id, [FromBody] OffenderDto offender)
     {
         if (offenderService.findOffenderId(id) == null)
@@ -41,7 +41,7 @@ public class OffenderControler : ControllerBase
         return Ok();
     }
 
-    [HttpDelete(Name = "DeleteOffender")]
+    [HttpDelete("DeleteOffender")]
     public IActionResult DeleteOffender(long id)
     {
         offenderService.DeleteOffender(id);
